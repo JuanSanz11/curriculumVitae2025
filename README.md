@@ -1,33 +1,48 @@
-# Resume - Juan David Sanz Almanza
+# JUAN DAVID SANZ ALMANZA
+### DESENVOLVEDOR FULLSTACK E MOBILE - AUTOMAÇÃO INDUSTRIAL
 
-## Profile
-Results-oriented technology professional with strong communication and adaptability skills, seeking opportunities to effectively apply my abilities in team and dynamic environments and contribute with innovative solutions.
+---
 
-Driven by a vision of technological future, my interests include automation, AI, and software development (AWS, Azure, GCP, Python, Git, JS, Microsoft etc.), hardware, as well as a commitment to sustainable and energy-efficient solutions.
+## 📄 RESUMO PROFISSIONAL
+Desenvolvedor especialista em soluções Fullstack e Mobile com foco em arquitetura de Microserviços, APIs RESTful e segurança (JWT). Expertise em transformar requisitos complexos em sistemas escaláveis de alta performance utilizando React, Node.js e NestJS. Sólida trajetória em Automação Industrial e Análise de Dados, otimizando infraestruturas críticas via Power BI, BMS e pipelines CI/CD. Especialista em metodologias ágeis (Scrum/Kanban) focado na entrega de valor e excelência técnica.
 
-## Contact
-- **Phone:** +55 11 98266-4773
-- **Email:** juandavidsanzalmanza@outlook.com
-- **LinkedIn/GitHub:** [github.com/JuanSanz11](https://github.com/JuanSanz11)
+---
 
-## Experience
-- **IT Support of Computer Elements** - São Paulo (SP) - 2025  
-  Provided technical support to over 500 mobile devices, solving 95% of reported issues within 24 hours, advised and developed websites and mobile apps, improving UX and reducing load time by 30%.
+## 💼 EXPERIÊNCIA PROFISSIONAL
 
-- **Digital Solutions - Johnson Controls** - São Paulo (SP)  
-  Responsible for process creation, technical skills, data analysis, installation support, automation process leader, user and password manager, team leader. In the field, achieved an 80% increase in operational efficiency through the implementation of new technological and personal solutions.
+### IT - Engenheiro de Software Fullstack e Mobile
+**Dry TELECOM** | *2025*
+- Arquitetei e implementei 3 sistemas logísticos complexos utilizando React, Node.js e NestJS, reduzindo em 20% o tempo de processamento de datos.
+- Liderei a transição para CI/CD (GitHub Actions) e metodologia SCRUM, aumentando a frequência de deploy em 30% y otimizando o ciclo de vida do software.
 
-- **Cybersecurity with Credit Cards - KONECTA** - Medellín (Colombia) - 2017 – 2019  
-  Authorized over 1000 daily transactions with a 99% accuracy rate.
+### Operador Técnico de Sistemas II (Especialista em Automação)
+**Johnson Controls** | *2023 - 2025*
+- Desenvolvi dashboards avançados em Power BI para análise preditiva, reduzindo o esforço de análise manual em 15 horas mensais.
+- Supervisão e programação de sistemas BMS (Building Management Systems) garantindo 100% de uptime em infraestruturas de missão crítica.
 
-## Education
-- **University of São Paulo (USP)** - São Paulo (SP) - 2023 – 2025  
-  Software Engineering
-- **Rocketseat** - São Paulo (SP) - 2024 - 2025  
-  React - React Native - Python - Node.js - Golang - openAI - Next
-- **San Buenaventura University** - Medellín (Colombia) - 2017  
-  Sound Engineering
-- **Bellas Artes** - Medellín (Colombia) - 2007  
-  Fine Arts
+### Suporte Técnico em Dispositivos Móveis
+**Source Recording Communications** | *2020 - Presente*
+- Suporte técnico especializado N2 para dispositivos móveis e sistemas embarcados, mantendo índice de satisfação superior a 95% em 500+ atendimentos.
 
-© 2025 Juan David Sanz Almanza
+---
+
+## 🎓 FORMAÇÃO ACADÊMICA
+- **MBA em Engenharia de Software**
+- **Engenharia de Som**
+
+---
+
+## 🛠 HABILIDADES TÉCNICAS
+**Fullstack & Mobile:** React Native, Node.js, React, Next.js, TypeScript, Python, Antigravity, IA  
+**Cloud & DevOps:** Docker, Kubernetes, GitHub Actions, Kafka, ArgoCD, Prometheus  
+**Intelligence & Data:** Power BI, SQL/NoSQL, Firebase, Zendesk, Office 365, BMS (Building Management Systems)
+
+---
+
+## 🌐 IDIOMAS
+- **Inglês:** Avançado
+- **Espanhol:** Nativo
+- **Português:** Fluente
+
+---
+*CV @2026*
