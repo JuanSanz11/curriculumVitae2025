@@ -328,6 +328,11 @@ h2 {
     border-top: 1px solid var(--glass-border);
 }
 
+.social-links-footer a:hover {
+    color: var(--accent-blue) !important;
+    transform: translateY(-3px);
+}
+
 /* Mobile */
 @media (max-width: 850px) {
     .grid-layout {
@@ -402,9 +407,21 @@ h2 {
 
     .contact-strip {
         display: flex !important;
-        gap: 15pt !important;
-        font-size: 9.5pt !important;
+        gap: 12pt !important;
+        flex-wrap: wrap !important;
+        font-size: 9pt !important;
         margin-bottom: 20pt !important;
+    }
+
+    .contact-strip a {
+        font-size: 0 !important;
+    }
+
+    .contact-strip a::after {
+        content: attr(href);
+        font-size: 9pt !important;
+        color: #000 !important;
+        text-decoration: none !important;
     }
 
     /* Force Linear Top-to-Bottom Structure */
