@@ -15,10 +15,6 @@ const translations = {
             <li>Desenvolvi dashboards avançados em Power BI para análise preditiva, reduzindo o esforço de análise manual em 15 horas mensais.</li>
             <li>Supervisão e programação de sistemas BMS (Building Management Systems) garantindo 100% de uptime em infraestruturas de missão crítica.</li>
         `,
-        exp3_role: "Suporte Técnico em Dispositivos Móveis",
-        exp3_list: `
-            <li>Suporte técnico especializado N2 para dispositivos móveis e sistemas embarcados, mantendo índice de satisfação superior a 95% em 500+ atendimentos.</li>
-        `,
         exp4_role: "Analista de Segurança e Prevenção de Fraudes (KONECTA)",
         exp4_list: `
             <li>Detecção e bloqueio de mais de 200 tentativas de fraude mensais através de monitoramento em tempo real e análise de padrões comportamentais.</li>
@@ -48,7 +44,6 @@ const translations = {
         lv_fluent: "Fluente",
         lv_proficient: "Proficiente",
         footer: "&copy; 2026 Juan David Sanz Almanza | Curriculum",
-        present_range: "2020 - Presente"
     },
     es: {
         download: "Descargar PDF",
@@ -65,10 +60,6 @@ const translations = {
         exp2_list: `
             <li>Desarrollé dashboards avanzados en Power BI para análisis predictivo, reduciendo el esfuerzo de análisis manual en 15 horas mensuales.</li>
             <li>Supervisión y programación de sistemas BMS (Building Management Systems) garantizando 100% de uptime en infraestructuras de misión crítica.</li>
-        `,
-        exp3_role: "Soporte Técnico en Dispositivos Móviles",
-        exp3_list: `
-            <li>Soporte técnico especializado N2 para dispositivos móviles y sistemas embebidos, manteniendo un índice de satisfacción superior al 95% en más de 500 atenciones.</li>
         `,
         exp4_role: "Analista de Seguridad y Prevención de Fraudes (KONECTA)",
         exp4_list: `
@@ -99,7 +90,6 @@ const translations = {
         lv_fluent: "Fluido",
         lv_proficient: "Proficiente",
         footer: "&copy; 2026 Juan David Sanz Almanza | Curriculum",
-        present_range: "2020 - Actualidad"
     },
     en: {
         download: "Download PDF",
@@ -109,7 +99,6 @@ const translations = {
         experience_title: "Professional Experience",
         exp1_role: "IT - Fullstack and Mobile Software Engineer",
         exp2_role: "Systems Technical Operator II (Automation Specialist)",
-        exp3_role: "Technical Support for Mobile Devices",
         exp1_list: `
             <li>Architected and implemented 3 complex logistics systems using React, Node.js, and NestJS, reducing data processing time by 20%.</li>
             <li>Led the transition to CI/CD (GitHub Actions) and SCRUM methodology, increasing deployment frequency by 30% and optimizing the SDLC.</li>
@@ -117,9 +106,6 @@ const translations = {
         exp2_list: `
             <li>Engineered advanced Power BI dashboards for predictive analysis, reducing manual reporting effort by 15 hours per month.</li>
             <li>Supervised and programmed BMS (Building Management Systems), ensuring 100% uptime in mission-critical infrastructures.</li>
-        `,
-        exp3_list: `
-            <li>L2 technical support for mobile devices and embedded systems, maintaining a satisfaction rate above 95% across 500+ tickets.</li>
         `,
         exp4_role: "Security and Fraud Prevention Analyst (KONECTA)",
         exp4_list: `
@@ -150,7 +136,6 @@ const translations = {
         lv_fluent: "Fluent",
         lv_proficient: "Proficient",
         footer: "&copy; 2026 Juan David Sanz Almanza | Curriculum",
-        present_range: "2020 - Present"
     }
 };
 

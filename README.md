@@ -20,9 +20,6 @@ Desenvolvedor especialista em soluções Fullstack e Mobile com foco em arquitet
 - Desenvolvi dashboards avançados em Power BI para análise preditiva, reduzindo o esforço de análise manual em 15 horas mensais.
 - Supervisão e programação de sistemas BMS (Building Management Systems) garantindo 100% de uptime em infraestruturas de missão crítica.
 
-### Suporte Técnico em Dispositivos Móveis
-**Source Recording Communications** | *2020 - Presente*
-- Suporte técnico especializado N2 para dispositivos móveis e sistemas embarcados, mantendo índice de satisfação superior a 95% em 500+ atendimentos.
 
 ---
 
