@@ -372,11 +372,11 @@ h2 {
 
     body {
         margin: 0 !important;
-        padding: 2.2cm 2.5cm !important; /* Professional margins */
+        padding: 1cm 1.5cm !important; /* Professional margins */
         width: 100% !important;
         font-family: Arial, sans-serif !important;
-        font-size: 10.5pt !important;
-        line-height: 1.45 !important;
+        font-size: 10pt !important;
+        line-height: 1.4 !important;
         background: white !important;
     }
 
@@ -430,21 +430,21 @@ h2 {
     .glass-card { margin-bottom: 20pt !important; background: none !important; padding: 0 !important; box-shadow: none !important; }
 
     h2 {
-        font-size: 14pt !important;
+        font-size: 13pt !important;
         font-weight: bold !important;
-        margin: 25pt 0 12pt 0 !important;
+        margin: 15pt 0 8pt 0 !important;
         text-transform: uppercase;
-        border-bottom: 1.5pt solid #000 !important; /* Minimal separator line */
-        padding-bottom: 5pt !important;
+        border-bottom: 1pt solid #000 !important; /* Minimal separator line */
+        padding-bottom: 3pt !important;
     }
 
     .timeline-item {
-        margin-bottom: 18pt !important;
+        margin-bottom: 12pt !important;
         page-break-inside: avoid !important;
     }
 
-    /* Hide specific experience item in PDF only */
-    #experience .timeline-item:nth-child(5) {
+    /* Hide specific elements in PDF only */
+    .hide-on-print {
         display: none !important;
     }
 
@@ -481,9 +481,14 @@ h2 {
     .skill-cloud span::after { content: ", "; }
     .skill-cloud span:last-child::after { content: ""; }
 
-    /* Balanced 2-Page Split */
+    /* Balanced Split */
     #education {
+        page-break-inside: avoid !important;
+        margin-top: 15pt !important;
+    }
+
+    #languages {
         page-break-before: always !important;
-        margin-top: 0 !important;
+        padding-top: 80pt !important;
     }
 }

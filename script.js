@@ -1,9 +1,9 @@
 const translations = {
     pt: {
         download: "Baixar PDF",
-        role: "Desenvolvedor Fullstack e Mobile - Automação industrial",
+        role: "Engenheiro de Software & Engenheiro de Som",
         summary_title: "Resumo Profissional",
-        summary_text: "Desenvolvedor especialista em soluções Fullstack e Mobile com foco em arquitetura de Microserviços, APIs RESTful e segurança (JWT). Expertise em transformar requisitos complexos em sistemas escaláveis de alta performance utilizando React, Node.js e NestJS. Sólida trajetória em Automação Industrial e Análise de Dados, otimizando infraestruturas críticas via Power BI, BMS e pipelines CI/CD. Especialista em metodologias ágeis (Scrum/Kanban) focado na entrega de valor e excelência técnica.",
+        summary_text: "Especialista em soluções Fullstack e Mobile, com foco em arquitetura de Microserviços, APIs RESTful e segurança baseada em JWT. Expertise em transformar requisitos complexos em sistemas escaláveis e de alta performance, aplicando múltiplas linguagens de programação e frameworks modernos, sempre de forma adaptável às necessidades do projeto. Sólida trajetória em Automação Industrial e Análise de Dados, otimizando infraestruturas críticas com Power BI, BMS e pipelines CI/CD. Especialista em metodologias ágeis (Scrum/Kanban) orientado à excelência técnica.",
         skills_title: "Especialidades Técnicas",
         exp1_role: "IT - Engenheiro de Software Fullstack e Mobile",
         exp1_list: `
@@ -24,16 +24,13 @@ const translations = {
 
         edu2_title: "Engenharia de Som",
 
-
-
-
-
-
         additional_title: "Informações Adicionais",
         additional_list: `
             <li>CNH (Categorias A e B)</li>
+            <li>Carteira de Trabalho Digital</li>
             <li>Disponibilidade para viajar</li>
         `,
+
         languages_title: "Idiomas",
         lang_en: "Inglês",
         lang_es: "Espanhol",
@@ -47,9 +44,9 @@ const translations = {
     },
     es: {
         download: "Descargar PDF",
-        role: "Desarrollador Fullstack y Mobile - Automatización industrial",
+        role: "Ingeniero de Software & Ingeniero de Sonido",
         summary_title: "Resumen Profesional",
-        summary_text: "Desarrollador experto en soluciones Fullstack y Mobile con enfoque en arquitectura de Microservicios, APIs RESTful y seguridad (JWT). Expertise en transformar requisitos complejos en sistemas escalables de alta performance utilizando React, Node.js y NestJS. Sólida trayectoria en Automatización Industrial y Análisis de Datos, optimizando infraestructuras críticas mediante Power BI, BMS y pipelines CI/CD. Especialista en metodologías ágiles (Scrum/Kanban) orientado a la excelencia técnica.",
+        summary_text: "Especialista en soluciones Fullstack y Mobile, con enfoque en arquitectura de Microservicios, APIs RESTful y seguridad basada en JWT. Expertise en transformar requisitos complejos en sistemas escalables y de alta performance, aplicando múltiples lenguajes de programación y frameworks modernos, siempre de forma adaptable a las necesidades del proyecto. Sólida trayectoria en Automatización Industrial y Análisis de Datos, optimizando infraestructuras críticas mediante Power BI, BMS y pipelines CI/CD. Especialista en metodologías ágiles (Scrum/Kanban) orientado a la excelencia técnica.",
         experience_title: "Experiencia Profesional",
         exp1_role: "IT - Ingeniero de Software Fullstack y Mobile",
         exp1_list: `
@@ -78,8 +75,10 @@ const translations = {
         additional_title: "Información Adicional",
         additional_list: `
             <li>Licencia de conducir (CNH A y B)</li>
+            <li>Cartera de Trabajo Digital (Brasil)</li>
             <li>Disponibilidad para viajar</li>
         `,
+
         languages_title: "Idiomas",
         lang_en: "Inglés",
         lang_es: "Español",
@@ -93,9 +92,9 @@ const translations = {
     },
     en: {
         download: "Download PDF",
-        role: "Fullstack and Mobile Developer - Industrial Automation",
+        role: "Software Engineer & Sound Engineer",
         summary_title: "Professional Summary",
-        summary_text: "Expert Fullstack and Mobile Developer specialized in Microservices architecture, RESTful APIs, and security (JWT). Proven track record of transforming complex requirements into high-performance scalable systems using React, Node.js, and NestJS. Strong background in Industrial Automation and Data Analysis, optimizing mission-critical infrastructures through Power BI, BMS, and CI/CD pipelines. Agile practitioner (Scrum/Kanban) dedicated to technical excellence and business value.",
+        summary_text: "Specialist in Fullstack and Mobile solutions, focusing on Microservices architecture, RESTful APIs, and JWT-based security. Expertise in transforming complex requirements into scalable, high-performance systems by applying multiple programming languages and modern frameworks, always adapting to project needs. Solid track record in Industrial Automation and Data Analysis, optimizing critical infrastructures with Power BI, BMS, and CI/CD pipelines. Agile practitioner (Scrum/Kanban) dedicated to technical excellence.",
         experience_title: "Professional Experience",
         exp1_role: "IT - Fullstack and Mobile Software Engineer",
         exp2_role: "Systems Technical Operator II (Automation Specialist)",
@@ -124,6 +123,7 @@ const translations = {
         additional_title: "Additional Info",
         additional_list: `
             <li>Driving License (A & B)</li>
+            <li>Digital Work Record (Brazil)</li>
             <li>Availability for travel</li>
         `,
         languages_title: "Languages",
