@@ -3,7 +3,7 @@ const translations = {
         download: "Baixar PDF",
         role: "Engenheiro de Software & Engenheiro de Som",
         summary_title: "Resumo Profissional",
-        summary_text: "Especialista em soluções Fullstack e Mobile, com foco em arquitetura de Microserviços, APIs RESTful e segurança baseada em JWT. Expertise em transformar requisitos complexos em sistemas escaláveis e de alta performance, aplicando múltiplas linguagens de programação e frameworks modernos, sempre de forma adaptável às necessidades do projeto. Sólida trajetória em Automação Industrial e Análise de Dados, otimizando infraestruturas críticas com Power BI, BMS e pipelines CI/CD. Especialista em metodologias ágeis (Scrum/Kanban) orientado à excelência técnica.",
+        summary_text: "Especialista em soluções Fullstack e Mobile, com foco em arquitetura de Microsserviços, APIs RESTful e segurança baseada em JWT. Expertise em transformar requisitos complexos em sistemas escaláveis e de alta performance, aplicando múltiplas linguagens de programação e frameworks modernos, sempre de forma adaptável às necessidades do projeto. Sólida trajetória em Automação Industrial e Análise de Dados, otimizando infraestruturas críticas com Power BI, BMS e pipelines CI/CD. Especialista em metodologias ágeis (Scrum/Kanban) orientado à excelência técnica.",
         skills_title: "Especialidades Técnicas",
         exp1_role: "IT - Engenheiro de Software Fullstack e Mobile",
         exp1_list: `

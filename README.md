@@ -39,7 +39,7 @@ Desenvolvedor especialista em soluções Fullstack e Mobile com foco em arquitet
 ## 🌐 IDIOMAS
 - **Inglês:** Avançado
 - **Espanhol:** Nativo
-- **Português:** Fluente
+- **Português:** Avançado
 
 ---
 *CV @2026*
