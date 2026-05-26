@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
@@ -39,16 +39,16 @@
             <div class="header-content">
                 <div class="info-meta">
                     <h1>Juan Almanza</h1>
-                    <p class="role-title" data-i18n="role">Engenheiro de Software & Engenheiro de Som</p>
+                    <p class="role-title" data-i18n="role">Engenheiro de Software Fullstack e Mobile</p>
                     <div class="contact-strip">
                         <span><i class="fas fa-phone"></i> +5511982664773</span>
                         <span><i class="fas fa-envelope"></i> juandavidsanzalmanza@outlook.com</span>
                         <span><i class="fas fa-location-dot"></i> São Paulo-SP</span>
                         <span><i class="fab fa-linkedin"></i> <a
                                 href="https://www.linkedin.com/in/juan-almanza-559361116" target="_blank"
-                                style="color: inherit; text-decoration: none;">LinkedIn</a></span>
+                                style="color: inherit; text-decoration: none;">linkedin.com/in/juan-almanza-559361116</a></span>
                         <span><i class="fab fa-github"></i> <a href="https://github.com/JuanSanz11" target="_blank"
-                                style="color: inherit; text-decoration: none;">GitHub</a></span>
+                                style="color: inherit; text-decoration: none;">github.com/JuanSanz11</a></span>
                     </div>
                 </div>
             </div>
@@ -60,45 +60,71 @@
             <div class="column-main">
                 <section id="summary" class="glass-card">
                     <h2><i class="fas fa-user-tie"></i> <span data-i18n="summary_title">Resumo Profissional</span></h2>
-                    <p data-i18n="summary_text">Especialista em soluções Fullstack e Mobile, com foco em arquitetura de Microsserviços, APIs RESTful e segurança baseada em JWT. Expertise em transformar requisitos complexos em sistemas escaláveis e de alta performance, aplicando múltiplas linguagens de programação e frameworks modernos, sempre de forma adaptável às necessidades do projeto. Sólida trajetória em Automação Industrial e Análise de Dados, otimizando infraestruturas críticas com Power BI, BMS e pipelines CI/CD. Especialista em metodologias ágeis (Scrum/Kanban) orientado à excelência técnica.</p>
+                    <p data-i18n="summary_text">Especialista Fullstack e Mobile focado em microsserviços, APIs e nuvem. Atualmente atuo de forma independente como consultor de software e desenvolvedor de produtos digitais de alta performance, aplicando rigor analítico e sólida experiência anterior em cibersegurança e automação predial.</p>
                 </section>
 
                 <section id="experience" class="card-section">
-                    <h2><i class="fas fa-briefcase"></i> <span data-i18n="experience_title">Experiência
-                            Profissional</span></h2>
+                    <h2><i class="fas fa-briefcase"></i> <span data-i18n="experience_title">Experiência Profissional</span></h2>
 
                     <article class="timeline-item">
-                        <div class="timerange">2025</div>
+                        <div class="timerange" data-i18n="exp0_time">Nov 2025 - Atual</div>
                         <div class="content">
-                            <h3 data-i18n="exp1_role">IT - Desenvolvedor FullStack e Mobile</h3>
+                            <h3 data-i18n="exp0_role">Consultor de Software e Desenvolvedor Fullstack Independente</h3>
+                            <p class="company" data-i18n="exp0_company">Autônomo</p>
+                            <ul data-i18n="exp0_list">
+                                <li><b>Desenvolvo soluções web, mobile e APIs REST robustas</b> utilizando <b>C# / .NET Core</b>, <b>ASP.NET Core Web API</b>, <b>React</b>, <b>Node.js</b> e <b>TypeScript</b>, aplicando boas práticas de segurança como <b>OAuth2 / JWT</b>.</li>
+                                <li><b>Implemento bancos de dados e ORMs</b> como <b>SQL Server</b> e <b>Entity Framework Core</b>, integrando sistemas de alta performance.</li>
+                                <li><b>Integro agentes de IA (<b>N8N</b>)</b> e LLMs, provisionando infraestrutura na nuvem (<b>Azure App Service</b>, <b>Blob Storage</b> e <b>AWS</b>).</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timerange" data-i18n="exp1_time">2025</div>
+                        <div class="content">
+                            <h3 data-i18n="exp1_role">Consultor Técnico e Desenvolvedor Fullstack</h3>
                             <p class="company">Dry TELECOM</p>
                             <ul data-i18n="exp1_list">
-                                <li>Prototipagem e desenvolvimento de sistemas logísticos (CRUDs, Vipp, Buscador) com
-                                    CI/CD e metodologia SCRUM.</li>
+                                <li><b>Arquitetei e projetei 3 sistemas logísticos na nuvem (<b>AWS</b>/<b>GCP</b>)</b> com React/NestJS e <b>Kafka</b>, reduzindo o tempo de processamento em 20%.</li>
+                                <li><b>Prestei consultoria na transição para CI/CD e GitOps (ArgoCD)</b>, otimizando orçamento anual de R$ 30.000 em nuvem e reduzindo custos em 15%.</li>
+                                <li><b>Direcionei a integração de agentes de IA (<b>N8N</b>)</b> e LLMs para automação inteligente de fluxos operacionais e análise de dados logísticos.</li>
+                                <li><b>Mentorei equipe de 4 engenheiros</b> nas melhores práticas de clean code e revisões de código, acelerando a produtividade em 40%.</li>
                             </ul>
                         </div>
                     </article>
 
                     <article class="timeline-item">
-                        <div class="timerange">2023 - 2025</div>
+                        <div class="timerange" data-i18n="exp2_time">Jan 2023 - Jan 2025</div>
                         <div class="content">
-                            <h3 data-i18n="exp2_role">Operador técnico em sistemas II</h3>
+                            <h3 data-i18n="exp2_role">Operador Técnico de Sistemas II (Promovido por Excelência)</h3>
                             <p class="company">Johnson Controls</p>
                             <ul data-i18n="exp2_list">
-                                <li>Automação e análise de dados (Power BI), supervisão de processos e programação de
-                                    sistemas prediais (refrigeração, iluminação e emergência).</li>
+                                <li><b>Desenvolvi dashboards em Power BI</b> para análise preditiva, reduzindo o esforço de relatórios manuais em 15 horas mensais.</li>
+                                <li><b>Programei sistemas BMS (Building Management Systems)</b>, garantindo 100% de uptime em infraestruturas de automação de missão crítica.</li>
                             </ul>
                         </div>
                     </article>
 
+                    <article class="timeline-item">
+                        <div class="timerange" data-i18n="exp3_time">Jan 2020 - Dez 2022</div>
+                        <div class="content">
+                            <h3 data-i18n="exp3_role">Desenvolvedor Fullstack e Engenheiro de Som Freelancer</h3>
+                            <p class="company" data-i18n="exp3_company">Autônomo</p>
+                            <ul data-i18n="exp3_list">
+                                <li><b>Desenvolvi softwares sob demanda</b> para estúdios e prestei consultoria em automação acústica e de áudio.</li>
+                                <li><b>Projetei sistemas de som interativos</b> e prestei serviços de mixagem/masterização remota para mais de 50 projetos.</li>
+                            </ul>
+                        </div>
+                    </article>
 
                     <article class="timeline-item">
-                        <div class="timerange">2017 - 2019</div>
+                        <div class="timerange" data-i18n="exp4_time">Abr 2017 - Dez 2019</div>
                         <div class="content">
                             <h3 data-i18n="exp4_role">Segurança Cibernética</h3>
                             <p class="company">Konecta</p>
                             <ul data-i18n="exp4_list">
-                                <li>Monitoramento e desbloqueio para compras com cartão de crédito.</li>
+                                <li><b>Monitorei em tempo real transações financeiras</b>, identificando e bloqueando mais de 200 tentativas mensais de fraude com cartão de crédito.</li>
+                                <li><b>Analisei padrões comportamentais de compra</b> para criar regras preventivas, reduzindo o índice de falsos positivos em 15%.</li>
                             </ul>
                         </div>
                     </article>
@@ -109,20 +135,22 @@
                             Acadêmica</span></h2>
 
                     <article class="education-item">
-                        <div class="timerange">2023 - 2025</div>
+                        <div class="timerange" data-i18n="edu1_time">Out 2023 - Ago 2025</div>
                         <div class="content">
-                            <h3 data-i18n="edu1_title">MBA em Engenharia de Software</h3>
+                            <h3 data-i18n="edu1_title">MBA em Engenharia de Software (EAD / Part-time)</h3>
                             <p class="institution">USP - Universidade de São Paulo</p>
 
                         </div>
                     </article>
 
                     <article class="education-item">
-                        <div class="timerange">2010 - 2017</div>
+                        <div class="timerange" data-i18n="edu2_time">Fev 2010 - Jun 2017</div>
                         <div class="content">
                             <h3 data-i18n="edu2_title">Engenharia de Som</h3>
                             <p class="institution">Universidade San Buenaventura (Medellín, Colômbia)</p>
-
+                            <ul data-i18n="edu2_list">
+                                <li><b>Síntese de áudio, Mixagem, Masterização e Foley</b> profissional utilizando <b>Pure Data</b>, <b>Csound</b>, <b>Pro Tools</b> e <b>Reaper</b>.</li>
+                            </ul>
                         </div>
                     </article>
                 </section>
@@ -153,7 +181,7 @@
                     <div class="language-item">
                         <div class="lang-info">
                             <span data-i18n="lang_pt">Português</span>
-                            <span class="level" data-i18n="lv_advanced">Avançado</span>
+                            <span class="level" data-i18n="lv_fluent">Fluente</span>
                         </div>
                         <div class="progress-bar">
                             <div class="progress" style="width: 90%;"></div>
@@ -165,15 +193,21 @@
                 <section id="skills" class="glass-card">
                     <h2 data-i18n="skills_title">Especialidades Técnicas</h2>
 
-                    <div style="margin-bottom: 1.2rem;">
+                     <div style="margin-bottom: 1.2rem;">
                         <strong
                             style="font-size: 0.8rem; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.5px;">Fullstack
                             & Mobile</strong>
                         <div class="skill-cloud" style="margin-top: 0.5rem;">
-                            <span>React
-                                Native</span><span>Node.js</span><span>React</span><span>Next.js</span><span>TypeScript</span><span>Python</span><span>Javascript</span><span>Java</span><span>Nest.js</span><span>Figma</span><span>AWS</span><span>Google
-                                Cloud</span><span>Redpanda</span><span>Railway</span><span>N8N</span><span>Ngrok</span><span>AI
-                                agent</span><span>Golang</span><span>API REST</span><span>Coverage Test</span>
+                            <span>React</span><span>React Native</span><span>Node.js</span><span>NestJS</span><span>Next.js</span><span>TypeScript</span><span>JavaScript</span><span>Python</span><span>Golang</span><span>AWS</span><span>Google Cloud</span><span>Agentes de IA (N8N)</span><span>API Design (RESTful)</span><span>Agile</span><span>Scrum</span><span>Kanban</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 1.2rem;">
+                        <strong
+                            style="font-size: 0.8rem; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.5px;">.NET
+                            & Azure</strong>
+                        <div class="skill-cloud" style="margin-top: 0.5rem;">
+                            <span>C#</span><span>.NET Core</span><span>ASP.NET Core Web API</span><span>Entity Framework Core</span><span>SQL Server</span><span>Blazor</span><span>OAuth2 / JWT</span><span>Azure App Service</span><span>Azure Service Bus</span><span>APIM</span><span>Azure SQL</span><span>Blob Storage</span><span>Key Vault</span>
                         </div>
                     </div>
 
@@ -182,33 +216,19 @@
                             style="font-size: 0.8rem; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.5px;">Cloud
                             & DevOps</strong>
                         <div class="skill-cloud" style="margin-top: 0.5rem;">
-                            <span>Docker</span><span>Kubernetes</span><span>GitHub
-                                Actions</span><span>Kafka</span><span>ArgoCD</span><span>Prometheus</span>
+                            <span>Docker</span><span>Kubernetes</span><span>CI/CD</span><span>GitHub Actions</span><span>ArgoCD</span><span>Kafka</span><span>Redpanda</span><span>Railway (PaaS)</span><span>Prometheus</span>
                         </div>
                     </div>
 
-                    <div>
+                    <div style="margin-bottom: 1.2rem;">
                         <strong
                             style="font-size: 0.8rem; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.5px;">Intelligence
                             & Data</strong>
                         <div class="skill-cloud" style="margin-top: 0.5rem;">
-                            <span>Power
-                                BI</span><span>SQL/NoSQL</span><span>Firebase</span><span>Zendesk</span><span>Office
-                                365</span><span>MongoDB</span><span>Beekeeper</span><span>MariaDB</span><span>Postgres</span><span>Metasys</span>
+                            <span>Power BI</span><span>PostgreSQL</span><span>MariaDB</span><span>MongoDB</span><span>SQL</span><span>NoSQL</span><span>Firebase</span><span>BMS (Metasys)</span><span>Digital Solutions</span>
                         </div>
                     </div>
 
-                    <div style="margin-top: 1.2rem;">
-                        <strong
-                            style="font-size: 0.8rem; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.5px;">Engenharia
-                            de Som & Áudio</strong>
-                        <div class="skill-cloud" style="margin-top: 0.5rem;">
-                            <span>Técnicas de Gravação</span><span>Som ao Vivo: Sala e
-                                Monitores</span><span>Foley</span><span>Mixagem e Masterização</span><span>Pure
-                                Data</span><span>Csound</span><span>Arduino</span><span>Processadores de
-                                Áudio</span><span>Pro Tools</span><span>Reaper</span>
-                        </div>
-                    </div>
                 </section>
 
                 <!-- Additional Info last -->
@@ -217,7 +237,6 @@
                             Adicionais</span></h2>
                     <ul class="additional-list" data-i18n="additional_list">
                         <li>CNH (Categorias A e B)</li>
-                        <li>Carteira de Trabalho Digital</li>
                         <li>Disponibilidade para viajar</li>
                     </ul>
                 </section>

@@ -212,7 +212,12 @@ h2 {
     height: 12px;
     background: var(--accent-blue);
     border-radius: 50%;
-    box-shadow: 0 0 10px var(--accent-blue);
+}
+
+@media screen {
+    .timeline-item::before {
+        box-shadow: 0 0 10px var(--accent-blue);
+    }
 }
 
 .timerange {
@@ -247,7 +252,7 @@ h2 {
 }
 
 .timeline-item ul li::before {
-    content: '→';
+    content: '•';
     position: absolute;
     left: 0;
     color: var(--accent-blue);
@@ -351,144 +356,269 @@ h2 {
     h1 {
         font-size: 2.5rem;
     }
-}/* PRINT STYLES - 2-Page Pure Minimalist & Clean */
-@media print {
-    @page {
-        size: A4;
-        margin: 0 !important; /* Forces browser to hide URL, Date and Title */
-    }
-
-    * {
-        -webkit-print-color-adjust: exact !important;
-        color-adjust: exact !important;
-        background: transparent !important;
-        box-shadow: none !important;
-        border: none !important; /* No boxes */
-        opacity: 1 !important;
-        visibility: visible !important;
-        transform: none !important;
-        color: #000 !important;
-    }
-
-    body {
-        margin: 0 !important;
-        padding: 1cm 1.5cm !important; /* Professional margins */
-        width: 100% !important;
-        font-family: Arial, sans-serif !important;
-        font-size: 10pt !important;
-        line-height: 1.4 !important;
-        background: white !important;
-    }
-
-    .background-blobs, .btn, .main-footer, .language-switcher, i, .progress-bar, .blob, #skills strong {
-        display: none !important;
-    }
-
-    .main-header {
-        text-align: left !important;
-        margin-bottom: 20pt !important;
-        border: none !important;
-        padding: 0 !important;
-    }
-
-    h1 {
-        font-size: 24pt !important;
-        margin: 0 !important;
-        font-weight: bold !important;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-
-    .role-title {
-        font-size: 13pt !important;
-        font-weight: bold !important;
-        margin: 5pt 0 10pt 0 !important;
-    }
-
-    .contact-strip {
-        display: flex !important;
-        gap: 12pt !important;
-        flex-wrap: wrap !important;
-        font-size: 9pt !important;
-        margin-bottom: 20pt !important;
-    }
-
-    .contact-strip a {
-        font-size: 0 !important;
-    }
-
-    .contact-strip a::after {
-        content: attr(href);
-        font-size: 9pt !important;
-        color: #000 !important;
-        text-decoration: none !important;
-    }
-
-    /* Force Linear Top-to-Bottom Structure */
-    .grid-layout { display: block !important; }
-    .column-main, .column-side { display: block !important; width: 100% !important; padding: 0 !important; }
-    .glass-card { margin-bottom: 20pt !important; background: none !important; padding: 0 !important; box-shadow: none !important; }
-
-    h2 {
-        font-size: 13pt !important;
-        font-weight: bold !important;
-        margin: 15pt 0 8pt 0 !important;
-        text-transform: uppercase;
-        border-bottom: 1pt solid #000 !important; /* Minimal separator line */
-        padding-bottom: 3pt !important;
-    }
-
-    .timeline-item {
-        margin-bottom: 12pt !important;
-        page-break-inside: avoid !important;
-    }
-
-    /* Hide specific elements in PDF only */
-    .hide-on-print {
-        display: none !important;
-    }
-
-    /* Remove Blue Circles */
-    .timeline-item::before {
-        display: none !important;
-    }
-
-    .timerange {
-        float: right !important;
-        font-weight: bold !important;
-    }
-
-    h3 {
-        font-size: 11.5pt !important;
-        font-weight: bold !important;
-        margin: 0 !important;
-    }
-
-    .company, .institution {
-        font-weight: bold !important;
-        color: #333 !important;
-        margin: 3pt 0 7pt 0 !important;
-        display: block !important;
-    }
-
-    ul { margin: 6pt 0 !important; padding: 0 !important; list-style: none !important; }
-    li { margin-bottom: 4pt !important; text-align: justify !important; position: relative !important; padding-left: 12pt !important; }
-    li::before { content: "• " !important; position: absolute !important; left: 0 !important; }
-
-    /* Skills as Clean Text */
-    .skill-cloud { display: block !important; }
-    .skill-cloud span { display: inline !important; font-size: 10.5pt !important; }
-    .skill-cloud span::after { content: ", "; }
-    .skill-cloud span:last-child::after { content: ""; }
-
-    /* Balanced Split */
-    #education {
-        page-break-inside: avoid !important;
-        margin-top: 15pt !important;
-    }
-
-    #languages {
-        page-break-before: always !important;
-        padding-top: 80pt !important;
-    }
 }
+
+    /* PRINT STYLES - Premium 2-Page Double Column Layout */
+    @media print {
+        @page {
+            size: A4;
+            margin: 0.5cm 0.7cm !important;
+            /* Maximizes printing canvas with perfect margins */
+        }
+
+        * {
+            -webkit-print-color-adjust: exact !important;
+            color-adjust: exact !important;
+            box-shadow: none !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            font-family: 'Inter', Arial, sans-serif !important;
+            font-size: 8.5pt !important;
+            /* Perfect standard readable size */
+            line-height: 1.32 !important;
+            background: #ffffff !important;
+            color: #0f172a !important;
+        }
+
+        .background-blobs,
+        .btn,
+        .main-footer,
+        .language-switcher,
+        .blob {
+            display: none !important;
+        }
+
+        .main-header {
+            text-align: left !important;
+            margin-bottom: 6pt !important;
+            border-bottom: 1.5pt solid #1e3a8a !important;
+            padding: 0 0 5pt 0 !important;
+            background: transparent !important;
+        }
+
+        h1 {
+            font-size: 19pt !important;
+            color: #1e3a8a !important;
+            margin: 0 0 2pt 0 !important;
+            font-weight: bold !important;
+            letter-spacing: -0.5px !important;
+        }
+
+        .role-title {
+            font-size: 10.5pt !important;
+            color: #2563eb !important;
+            font-weight: 600 !important;
+            margin: 0 0 5pt 0 !important;
+        }
+
+        .contact-strip {
+            display: block !important;
+            font-size: 7.8pt !important;
+            color: #475569 !important;
+            margin: 0 !important;
+        }
+ 
+        .contact-strip span {
+            display: inline-block !important;
+            margin-right: 12pt !important;
+        }
+ 
+        .contact-strip i {
+            color: #1e3a8a !important;
+            font-size: 8pt !important;
+        }
+
+        /* Flawless single column layout for 100% linear ATS parsing */
+        .grid-layout {
+            display: block !important;
+            margin-top: 8pt !important;
+        }
+
+        .column-main {
+            width: 100% !important;
+            float: none !important;
+            padding: 0 !important;
+        }
+
+        .column-side {
+            width: 100% !important;
+            float: none !important;
+            padding: 0 !important;
+            margin-top: 8pt !important;
+        }
+
+        .glass-card,
+        .card-section {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            margin-bottom: 8pt !important;
+        }
+
+        h2 {
+            font-size: 10pt !important;
+            font-weight: 700 !important;
+            color: #1e3a8a !important;
+            margin: 0 0 5pt 0 !important;
+            text-transform: uppercase !important;
+            border-bottom: 1.2pt solid #e2e8f0 !important;
+            padding-bottom: 2pt !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 3pt !important;
+        }
+
+        h2 i {
+            color: #1e3a8a !important;
+            font-size: 9pt !important;
+        }
+
+        /* Compact Timeline Styling */
+        .timeline-item {
+            position: relative !important;
+            padding-left: 10pt !important;
+            border-left: 1.2pt solid #e2e8f0 !important;
+            margin-bottom: 7pt !important;
+            page-break-inside: avoid !important;
+        }
+
+        .timeline-item::before {
+            display: none !important;
+            content: none !important;
+            background: none !important;
+            width: 0 !important;
+            height: 0 !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+
+        .timerange {
+            font-size: 7.8pt !important;
+            color: #2563eb !important;
+            font-weight: bold !important;
+            margin-bottom: 0.5pt !important;
+        }
+
+        h3 {
+            font-size: 9.2pt !important;
+            font-weight: 700 !important;
+            color: #0f172a !important;
+            margin: 0 0 1pt 0 !important;
+        }
+
+        .company,
+        .institution {
+            font-weight: 600 !important;
+            color: #475569 !important;
+            margin: 0 0 2pt 0 !important;
+            font-size: 8.2pt !important;
+            display: block !important;
+        }
+
+        ul {
+            margin: 0 !important;
+            padding: 0 !important;
+            list-style: none !important;
+        }
+
+        li {
+            margin-bottom: 2.2pt !important;
+            text-align: justify !important;
+            position: relative !important;
+            padding-left: 8pt !important;
+            font-size: 8pt !important;
+            color: #334155 !important;
+        }
+
+        li::before {
+            content: "•" !important;
+            position: absolute !important;
+            left: 0 !important;
+            color: #2563eb !important;
+        }
+
+        /* Highly Compact Comma-Separated Skills list in Print */
+        .skill-cloud {
+            display: block !important;
+            margin-top: 2pt !important;
+            margin-bottom: 4pt !important;
+        }
+
+        .skill-cloud span {
+            display: inline !important;
+            background: transparent !important;
+            border: none !important;
+            color: #334155 !important;
+            padding: 0 !important;
+            font-size: 8pt !important;
+            font-weight: 500 !important;
+        }
+
+        .skill-cloud span:not(:last-child)::after {
+            content: ", " !important;
+        }
+
+        #languages {
+            break-before: page !important;
+            /* Forces the second page to start exactly with the Idiomas section */
+            page-break-before: always !important;
+            padding-top: 35pt !important;
+            /* Elegant breathing space from the top edge of Page 2 */
+        }
+
+        #skills {
+            margin-top: 12pt !important;
+            /* Balanced gap between Languages and Skills on Page 2 */
+        }
+
+        /* Language Progress Bars in Print */
+        .language-item {
+            margin-bottom: 5pt !important;
+        }
+
+        .lang-info {
+            display: flex !important;
+            justify-content: space-between !important;
+            font-size: 7.8pt !important;
+            color: #0f172a !important;
+            margin-bottom: 1px !important;
+        }
+
+        .level {
+            color: #2563eb !important;
+            font-weight: 600 !important;
+        }
+
+        .progress-bar {
+            display: block !important;
+            height: 2.5pt !important;
+            background: #e2e8f0 !important;
+            border-radius: 1.2pt !important;
+            overflow: hidden !important;
+        }
+
+        .progress {
+            display: block !important;
+            height: 100% !important;
+            background: #1e3a8a !important;
+        }
+
+        /* Avoid breaks inside sections on single-page export */
+        #summary,
+        #languages,
+        #skills,
+        .education-item {
+            page-break-inside: avoid !important;
+        }
+    }

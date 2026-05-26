@@ -10,10 +10,12 @@ Desenvolvedor especialista em soluções Fullstack e Mobile com foco em arquitet
 
 ## 💼 EXPERIÊNCIA PROFISSIONAL
 
-### IT - Engenheiro de Software Fullstack e Mobile
+### Consultor Técnico e Desenvolvedor Fullstack
 **Dry TELECOM** | *2025*
-- Arquitetei e implementei 3 sistemas logísticos complexos utilizando React, Node.js e NestJS, reduzindo em 20% o tempo de processamento de datos.
-- Liderei a transição para CI/CD (GitHub Actions) e metodologia SCRUM, aumentando a frequência de deploy em 30% y otimizando o ciclo de vida do software.
+- Arquitetei e projetei 3 sistemas logísticos na nuvem (AWS/GCP) com React/NestJS e Kafka, reduzindo o tempo de processamento em 20%.
+- Prestei consultoria na transição para CI/CD e GitOps (ArgoCD), otimizando orçamento anual de R$ 30.000 em nuvem e reduzindo custos em 15%.
+- Direcionei a integração de agentes de IA (N8N) e LLMs para automação inteligente de fluxos operacionais e análise de dados logísticos.
+- Mentorei equipe de 4 engenheiros nas melhores práticas de clean code e revisões de código, acelerando a produtividade em 40%.
 
 ### Operador Técnico de Sistemas II (Especialista em Automação)
 **Johnson Controls** | *2023 - 2025*
